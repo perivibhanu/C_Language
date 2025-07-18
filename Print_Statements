@@ -1,0 +1,14 @@
+In c we are using the "printf()" keyword for printing the statemets.
+Ex: printf("Statement");
+Here we are "%d" for printing the integers value.
+Same way "%c" for printing the Characters value.
+for printing the floating values we are using the "%f".
+"%s" this is usefull for printing the string value or statements
+Ex: printf("%d",variablename);// this is usefull for printing the integers values
+printf("%f",variablename);// this for printing the the floating values
+printf("%c",variablename);// this for printing thr charcter values
+printf("%s",variablename);// this is for using printing the string values
+
+"\n" plays an crucial role for printing the output line by line.
+
+EX:printf("%d\n",variablename);// we can get the output line by line if use this method
