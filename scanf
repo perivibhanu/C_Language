@@ -1,0 +1,12 @@
+For storing the values in c we are using the "scanf" keyword.
+Here "&" plays an very important role in the time of storing the values in c.
+for storing the integers values we are using this method 
+Ex:printf("%d",&variablename);
+for storing the string value
+Ex:printf("%s",& variablename);
+
+for storing the characters values
+Ex:printf("%c",& variabkename);
+
+for storing the floating values
+Ex: printf("%f",& varaiblename);
