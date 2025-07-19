@@ -1,0 +1,53 @@
+Data Types are classifed into 3 types based on their operation.There arePrimary,Dervied and user defined data tpyes rescpectively.
+Primary Data types are
+   1.int: Stores integers values
+         Ex:int a=1 
+            int b=-5. 
+     Typically occupies 2 or 4 bytes.
+
+  2.float: Stores single-precision floating-point numbers 
+         Ex:float a=3.14
+           float b=3.0
+    Occupies 4 bytes.
+
+   3.double:Stores double-precision floating-point numbers
+        EX: double a=3.14159
+        double b=4.5646
+    Occupies 8 bytes.
+
+   4.char: Stores a single character 
+       EX: char ch='A'
+           char bv='a'
+     Occupies 1 byte.
+
+Derived Data Types
+
+
+    1.Array: Collection of elements of the same type (e.g., int arr[5]).
+    2.Pointer: Stores the address of another variable (e.g., int *ptr).
+    3.Structure: Groups variables of different types (e.g., struct).
+    4.Union: Similar to structures but shares memory among members.
+
+
+>>Enumeration (enum):
+Used to define a set of named integer constants (e.g., enum Color {RED, GREEN, BLUE};).
+
+>>Void:
+Represents "no type." Commonly used for functions that do not return a value (e.g., void function()).
+  
+>>Modifiers:
+Modifiers adjust the size or range of basic data types:
+short, long: Alters the size of integers (e.g., short int, long int).
+signed, unsigned: Determines whether a variable can hold negative values (e.g., unsigned int).
+
+EXAMPLE:
+
+#include<stdio.h>
+  int main(){
+    int a=3;
+    float b=3.6;
+    char c='C';
+    double pi=3.1478;
+    return 0;
+  }
+    
