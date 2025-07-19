@@ -1,0 +1,14 @@
+In c  there four types of Arthmetic operators are availabe. There are (+,-,%,*).
+The + operator is used for adding the values.
+example
+#include<stdio.h>
+int main(){
+int a,b,c;      // here we taking the integers values so we are using the integere data type("int");
+printf("Enter the first number:\n");  // we printing the statement
+scanf("%d",&a);                       // we saving the first variable using the variable -a 
+printf("Enter the second number:\n");
+scanf("%d",&);                  // // we saving the second variable using the variable -ab
+c=a+b;
+printf("sum the two numbers is:%d",c);
+return 0;
+}
